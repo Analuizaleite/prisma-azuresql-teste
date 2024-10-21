@@ -1,0 +1,14 @@
+datasource db {
+  provider = "sqlserver" 
+  url      = env("sqlserver://azuresql-prima-server.database.windows.net;database=azuresql-prisma-shadow-database;user=azure-prisma@azuresql-prima-server;password=Azprism123@;encrypt=true")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id    Int     @id @default(autoincrement())
+  name  String
+  email String  @unique
+}
