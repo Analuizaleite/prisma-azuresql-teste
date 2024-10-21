@@ -1,0 +1,16 @@
+{
+  "name": "app-azurefunctions-azuresql",
+  "version": "1.0.0",
+  "description": "Back-End application using Azure Functions + Azure SQL + Prisma",
+  "scripts": {
+    "dev": "func start"
+  },
+  "devDependencies": {
+    "@azure/functions": "^4.5.1",
+    "azure-functions-core-tools": "^4.x",
+    "prisma": "5.21.1"
+  },
+  "dependencies": {
+    "@prisma/client": "5.21.1"
+  }
+}

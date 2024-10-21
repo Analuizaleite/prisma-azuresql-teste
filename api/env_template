@@ -1,0 +1,5 @@
+# Database connection string
+DATABASE_URL="sqlserver://azuresql-prima-server.database.windows.net:1433;database=azuresql-prisma-database;user=azure-prisma@azuresql-prima-server;password=Azprism123@;encrypt=true"
+
+# Shadow database connection string for development
+SHADOW_DATABASE_URL="sqlserver://azuresql-prima-server.database.windows.net:1433;database=azuresql-prisma-shadow-database;user=azure-prisma@azuresql-prima-server;password=Azprism123@;encrypt=true"

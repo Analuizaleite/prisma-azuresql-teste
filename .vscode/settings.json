@@ -1,0 +1,14 @@
+{
+    "azureFunctions.deploySubpath": "frontend-vue-starter-app\\api",
+    "azureFunctions.postDeployTask": "npm install",
+    "azureFunctions.projectLanguage": "JavaScript",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.projectLanguageModel": 4,
+    "azureFunctions.preDeployTask": "npm prune",
+    "liveServer.settings.proxy": {
+        "enable": true,
+        "baseUri": "/api/employees",
+        "proxyUri": "http://localhost:7071/api/employees/"
+    }
+}
